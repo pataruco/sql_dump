@@ -106,6 +106,9 @@ ____________________________________________________________
     15|2015-05-25 17:48:23|Jonathan Anderson
 ____________________________________________________________
 18. Selects the id of the user with the name "Jonathan Anderson"?
+  SELECT id FROM users WHERE name = "Jonathan Anderson";
+    15
+____________________________________________________________
 19. Inserts a wishlist entry for the user with the name "Jonathan Anderson" for the product "The Ruby Programming Language".
 20. Updates the name of the "Jonathan Anderson" user to be "Jon Anderson".
 21. Deletes the user with the name "Jon Anderson".
