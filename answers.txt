@@ -59,6 +59,10 @@ ____________________________________________________________
     2|2013-04-01 20:09:41.932863|James Gotsell
 ____________________________________________________________
 12. Selects the number of users whose first names are "Spencer".
+  SELECT * FROM users WHERE name LIKE 'SPENCER%';
+  11|2013-04-01 20:09:41.946512|Spencer Meyer
+____________________________________________________________
+
 13. Selects the number of users who want a "Teddy Bear".
 14. Selects the count of items on the wishlish of the user with your name.
 15. Selects the count and name of all products on the wishlist, ordered by count in descending order.

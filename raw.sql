@@ -22,6 +22,8 @@
 
 SELECT products.name, COUNT(product_id) AS noitems FROM wishlists inner join products on products.id = wishlists.product_id group by product_id order by noitems desc;
 
+-- 12 SELECT * FROM users WHERE name LIKE 'SPENCER%';
+
 
 
 
