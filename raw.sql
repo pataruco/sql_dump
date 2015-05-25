@@ -26,6 +26,10 @@ SELECT products.name, COUNT(product_id) AS noitems FROM wishlists inner join pro
 
 -- 13 SELECT count(user_id) FROM wishlists WHERE product_id = 1;
 
+-- 14 SELECT count(product_id) FROM wishlists WHERE user_id = 10; 
+
+-- 15 SELECT count(user_id), count(product_id) FROM wishlists ORDER BY user_id DESC, product_id DESC;
+
 
 
 

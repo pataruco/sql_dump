@@ -71,6 +71,9 @@ ____________________________________________________________
     7
 ____________________________________________________________
 15. Selects the count and name of all products on the wishlist, ordered by count in descending order.
+  SELECT count(user_id), count(product_id) FROM wishlists ORDER BY user_id DESC, product_id DESC;
+    76|76
+____________________________________________________________
 16. Selects the count and name of all products that are not on sale on the wishlist, ordered by count in descending order.
 17. Inserts a user with the name "Jonathan Anderson" into the users table. Ensure the created_at column is set to the current time.
 18. Selects the id of the user with the name "Jonathan Anderson"?
