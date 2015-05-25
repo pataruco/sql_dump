@@ -17,8 +17,9 @@ ____________________________________________________________
     Cat Ears|99.99
 ____________________________________________________________ 
 4. Selects the name and price of the second most expensive product.
-
-
+  SELECT price, name FROM products ORDER BY price DESC LIMIT 1 OFFSET 1;
+    82.0|Brown Leather Boots
+____________________________________________________________
 5. Selects the name and price of the least expensive product.
   SELECT name,  min(price) FROM products;
     Set of 12 Mason Jars|6.22
@@ -37,6 +38,10 @@ ____________________________________________________________
     6.22|Set of 12 Mason Jars
 ____________________________________________________________ 
 7. Selects the average price of all products.
+  SELECT AVG(price) FROM products;
+    38.899
+____________________________________________________________ 
+
 8. Selects the sum of the price of all products.
 9. Selects the sum of the price of all products whose prices is less than £20.
 10. Selects the id of the user with your name.
