@@ -12,10 +12,11 @@ ____________________________________________________________
     5|2013-04-01 20:09:41.977249|Silicon Valley Monopoly|10.99|t
     9|2013-04-01 20:09:41.983386|Set of 12 Mason Jars|6.22|f
 ____________________________________________________________ 
-
-
-
 3. Selects the name and price of the most expensive product.
+  SELECT name,  max(price) FROM products;
+    Cat Ears|99.99
+____________________________________________________________ 
+
 4. Selects the name and price of the second most expensive product.
 5. Selects the name and price of the least expensive product.
 6. Selects the names and prices of all products, ordered by price in descending order.
