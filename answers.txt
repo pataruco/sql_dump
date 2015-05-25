@@ -75,6 +75,18 @@ ____________________________________________________________
     76|76
 ____________________________________________________________
 16. Selects the count and name of all products that are not on sale on the wishlist, ordered by count in descending order.
+  SELECT products.name, COUNT(product_id) AS noitems FROM wishlists inner join products on products.id = wishlists.product_id group by product_id order by noitems desc;
+    Hoodie|17
+    Card Against Humanity|16
+    Cat Ears|15
+    The Ruby Programming Language|9
+    Teddy Bear|6
+    Silicon Valley Monopoly|5
+    Brown Leather Boots|4
+    Lonely Pillow|2
+    Set of 12 Mason Jars|2
+____________________________________________________________
+
 17. Inserts a user with the name "Jonathan Anderson" into the users table. Ensure the created_at column is set to the current time.
 18. Selects the id of the user with the name "Jonathan Anderson"?
 19. Inserts a wishlist entry for the user with the name "Jonathan Anderson" for the product "The Ruby Programming Language".

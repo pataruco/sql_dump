@@ -20,8 +20,6 @@
 
 -- 11 SELECT * FROM users WHERE name LIKE 'J%';
 
-SELECT products.name, COUNT(product_id) AS noitems FROM wishlists inner join products on products.id = wishlists.product_id group by product_id order by noitems desc;
-
 -- 12 SELECT * FROM users WHERE name LIKE 'SPENCER%';
 
 -- 13 SELECT count(user_id) FROM wishlists WHERE product_id = 1;
@@ -30,7 +28,8 @@ SELECT products.name, COUNT(product_id) AS noitems FROM wishlists inner join pro
 
 -- 15 SELECT count(user_id), count(product_id) FROM wishlists ORDER BY user_id DESC, product_id DESC;
 
+-- 16 SELECT products.name, COUNT(product_id) AS noitems FROM wishlists inner join products on products.id = wishlists.product_id group by product_id order by noitems desc;
 
-
+17. Inserts a user with the name "Jonathan Anderson" into the users table. Ensure the created_at column is set to the current time.
 
 
