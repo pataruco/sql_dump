@@ -16,9 +16,13 @@
 
 -- 9 SELECT sum(price) FROM products WHERE price < 20;
 
-10. Selects the id of the user with your name. 'Filippo Matoso'
+-- 10 SELECT id FROM users WHERE name = 'Filippo Matoso';
 
-SELECT name ('Filippo Matoso') FROM products;
+-- 11 SELECT * FROM users WHERE name LIKE 'J%';
+
+SELECT products.name, COUNT(product_id) AS noitems FROM wishlists inner join products on products.id = wishlists.product_id group by product_id order by noitems desc;
+
+
 
 
 

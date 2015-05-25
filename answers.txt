@@ -54,6 +54,10 @@ ____________________________________________________________
     10
 ____________________________________________________________
 11. Selects the names of all users whose names start with the letter "J".
+  SELECT * FROM users WHERE name LIKE 'J%';
+    1|2013-04-01 20:09:41.926399|Jon Rogers
+    2|2013-04-01 20:09:41.932863|James Gotsell
+____________________________________________________________
 12. Selects the number of users whose first names are "Spencer".
 13. Selects the number of users who want a "Teddy Bear".
 14. Selects the count of items on the wishlish of the user with your name.
