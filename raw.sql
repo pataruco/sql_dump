@@ -14,3 +14,5 @@
 
 -- 8 SELECT SUM(price) FROM products;
 
+-- 9 SELECT sum(price) FROM products WHERE price < 20;
+
