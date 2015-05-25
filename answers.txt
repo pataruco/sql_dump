@@ -50,6 +50,9 @@ ____________________________________________________________
     55.19
 ____________________________________________________________
 10. Selects the id of the user with your name.
+  SELECT id FROM users WHERE name = 'Filippo Matoso';
+    10
+____________________________________________________________
 11. Selects the names of all users whose names start with the letter "J".
 12. Selects the number of users whose first names are "Spencer".
 13. Selects the number of users who want a "Teddy Bear".

@@ -16,3 +16,9 @@
 
 -- 9 SELECT sum(price) FROM products WHERE price < 20;
 
+10. Selects the id of the user with your name. 'Filippo Matoso'
+
+SELECT name ('Filippo Matoso') FROM products;
+
+
+
