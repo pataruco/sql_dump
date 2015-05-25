@@ -33,3 +33,5 @@
 -- 17 INSERT INTO users (name, created_at) VALUES ("Jonathan Anderson", CURRENT_TIMESTAMP);
 
 -- 18 SELECT id FROM users WHERE name = "Jonathan Anderson";
+
+-- 20 UPDATE users SET name = "Jon Anderson" WHERE name = "Jonathan Anderson";

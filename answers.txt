@@ -111,5 +111,23 @@ ____________________________________________________________
 ____________________________________________________________
 19. Inserts a wishlist entry for the user with the name "Jonathan Anderson" for the product "The Ruby Programming Language".
 20. Updates the name of the "Jonathan Anderson" user to be "Jon Anderson".
+  UPDATE users SET name = "Jon Anderson" WHERE name = "Jonathan Anderson";
+  select * from users;
+    1|2013-04-01 20:09:41.926399|Jon Rogers
+    2|2013-04-01 20:09:41.932863|James Gotsell
+    3|2013-04-01 20:09:41.934730|Erica Porter
+    4|2013-04-01 20:09:41.936167|Christabel Samuels
+    5|2013-04-01 20:09:41.937655|Dani Zraikat
+    6|2013-04-01 20:09:41.938977|Rane Gowan
+    7|2013-04-01 20:09:41.940520|Hassan Mohammadi
+    8|2013-04-01 20:09:41.942043|Cheryl Wee
+    9|2013-04-01 20:09:41.943542|Tyrone Compton
+    10|2013-04-01 20:09:41.945032|Filippo Matoso
+    11|2013-04-01 20:09:41.946512|Spencer Meyer
+    12|2013-04-01 20:09:41.947799|Elena Sanna
+    13|2013-04-01 20:09:41.949360|Gerry Mathe
+    14|2013-04-01 20:09:41.951026|ALex Chin
+    15|2015-05-25 17:48:23|Jon Anderson
+____________________________________________________________
 21. Deletes the user with the name "Jon Anderson".
 22. Deletes the wishlist item for the user you just deleted.
