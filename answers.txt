@@ -16,10 +16,23 @@ ____________________________________________________________
   SELECT name,  max(price) FROM products;
     Cat Ears|99.99
 ____________________________________________________________ 
-
 4. Selects the name and price of the second most expensive product.
+
+
 5. Selects the name and price of the least expensive product.
 6. Selects the names and prices of all products, ordered by price in descending order.
+  SELECT price, name FROM products ORDER BY price DESC, name DESC;
+    99.99|Cat Ears
+    82.0|Brown Leather Boots
+    78.82|Lonely Pillow
+    25.0|Hoodie
+    25.0|Card Against Humanity
+    22.99|Set of silverware
+    19.99|The Ruby Programming Language
+    17.99|Teddy Bear
+    10.99|Silicon Valley Monopoly
+    6.22|Set of 12 Mason Jars
+____________________________________________________________ 
 7. Selects the average price of all products.
 8. Selects the sum of the price of all products.
 9. Selects the sum of the price of all products whose prices is less than £20.
