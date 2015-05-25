@@ -41,8 +41,10 @@ ____________________________________________________________
   SELECT AVG(price) FROM products;
     38.899
 ____________________________________________________________ 
-
 8. Selects the sum of the price of all products.
+  SELECT SUM(price) FROM products;
+    388.99
+____________________________________________________________
 9. Selects the sum of the price of all products whose prices is less than £20.
 10. Selects the id of the user with your name.
 11. Selects the names of all users whose names start with the letter "J".

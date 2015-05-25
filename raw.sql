@@ -12,3 +12,5 @@
 
 -- 7 SELECT AVG(price) FROM products;
 
+-- 8 SELECT SUM(price) FROM products;
+
