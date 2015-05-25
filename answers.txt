@@ -62,8 +62,10 @@ ____________________________________________________________
   SELECT * FROM users WHERE name LIKE 'SPENCER%';
   11|2013-04-01 20:09:41.946512|Spencer Meyer
 ____________________________________________________________
-
 13. Selects the number of users who want a "Teddy Bear".
+  SELECT count(user_id) FROM wishlists WHERE product_id = 1;
+    6
+____________________________________________________________
 14. Selects the count of items on the wishlish of the user with your name.
 15. Selects the count and name of all products on the wishlist, ordered by count in descending order.
 16. Selects the count and name of all products that are not on sale on the wishlist, ordered by count in descending order.

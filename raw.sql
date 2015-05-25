@@ -24,6 +24,8 @@ SELECT products.name, COUNT(product_id) AS noitems FROM wishlists inner join pro
 
 -- 12 SELECT * FROM users WHERE name LIKE 'SPENCER%';
 
+-- 13 SELECT count(user_id) FROM wishlists WHERE product_id = 1;
+
 
 
 
