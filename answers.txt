@@ -20,6 +20,9 @@ ____________________________________________________________
 
 
 5. Selects the name and price of the least expensive product.
+  SELECT name,  min(price) FROM products;
+    Set of 12 Mason Jars|6.22
+____________________________________________________________ 
 6. Selects the names and prices of all products, ordered by price in descending order.
   SELECT price, name FROM products ORDER BY price DESC, name DESC;
     99.99|Cat Ears
